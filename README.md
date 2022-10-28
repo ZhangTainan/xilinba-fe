@@ -8,28 +8,28 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
 
-# 使用
+## 技术栈
 
-## 包管理器pnpm
-[pnpm](https://pnpm.io/installation) 相较于 传统的npm 与 yarn 有其独特的优势，让模块管理更加快速和高效，因此本项目使用pnpm作为包管理器
-
-### 安装
-
-- 打开powershell终端
-
-- 执行：`iwr https://get.pnpm.io/install.ps1 -useb | iex`
-
-- 检查是否安装成功 `pnpm -v`
-
+- [VueRouter](https://router.vuejs.org/zh/)
+- [VueUse](https://vueuse.org/)
+- [Windi CSS](https://cn.windicss.org/)
+- [ElementPlus](https://element-plus.gitee.io/zh-CN/)
+- [Axios](https://www.axios-http.cn/)
 
 ## 克隆项目
 
 `git clone git@github.com:ZhangTainan/xilinba-fe.git`
 
 ## 安装依赖
-`pnpm install`
+`npm install`
 
 ## 运行项目
-`pnpm run dev`
+`npm run dev`
 
 访问: `localhost:5173`
+
+![image-20221029014214752](C:\Users\qq2998637256\Desktop\新建文件夹\temp\xilinba-fe\README.assets\image-20221029014214752.png)
+
+## 加入我们
+
+- ### Email：2998637256@qq.com

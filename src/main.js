@@ -1,14 +1,23 @@
 import {
     createApp
 } from 'vue'
-import './style.css'
 
-// 导入element-plus
+// ElementPlus配置
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 
+import router from './router'
+
+// 默认样式
+// import './style.css'
+
+// 引入windi css
+import 'virtual:windi.css'
+
 import App from './App.vue'
 
-app.use(ElementPlus)
+const app = createApp(App)
 
-createApp(App).mount('#app')
+app.use(ElementPlus) // ElementPlus
+app.use(router) // vue-router
+app.mount('#app')
